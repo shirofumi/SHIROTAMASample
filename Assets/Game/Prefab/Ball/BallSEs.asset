@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6946d2a1e8c906941bef84024952e7a4, type: 3}
+  m_Name: BallSEs
+  m_EditorClassIdentifier: 
+  GetOoc: {fileID: 8300000, guid: 62d12efec6497d94ca16f68d07a2b068, type: 3}
+  FinishOoc: {fileID: 8300000, guid: c185f5207ee31be40ad39e7af490152d, type: 3}

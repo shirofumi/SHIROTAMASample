@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71b28478f46040bd9800dc7266de2, type: 3}
+  m_Name: English
+  m_EditorClassIdentifier: 
+  FastCompletion: Within {0} seconds
+  LessBarrier: '{0} or fewer bumpers'
+  LessHitting: '{0} or fewer hits'
+  MoreHitting: '{0} or more hits'
+  LessSlugging: '{0} or fewer hard hits'
+  MoreSlugging: '{0} or more hard hits'
+  MoreAcceleration: '{0} accelerations'
+  MoreDicretionChange: '{0} turnings'
+  MoreRotation: '{0} rotations'
+  InitialBarrier: Only initial bumpers
+  ExciteBall: Excite a ball
+  DontExciteBall: Don't excite a ball
+  StopBall: Stop a ball
+  DontStopBall: Don't stop a ball
+  BreakAll: Break all objects

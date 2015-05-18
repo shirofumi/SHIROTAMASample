@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - SceneController
+  - Ball
+  - Billboard
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - ScreenEffect
+  - OverScreen
+  - 
+  - 
+  - 
+  - Ball
+  - BallContact
+  - 
+  - Barrier
+  - BarrierCore
+  - BarrierZone
+  - 
+  - Ground
+  - Panel
+  - Wall
+  - Item
+  - 
+  - Effect
+  - 
+  - 
+  - 
+  - 
+  - Space
+  - 
+  m_SortingLayers:
+  - name: Ground
+    uniqueID: 1655953085
+    locked: 0
+  - name: Panel
+    uniqueID: 1376038055
+    locked: 0
+  - name: FloorEffect
+    uniqueID: 2517496759
+    locked: 0
+  - name: Item
+    uniqueID: 2346985069
+    locked: 0
+  - name: FieldEffect
+    uniqueID: 3148947795
+    locked: 0
+  - name: Wall
+    uniqueID: 3077365449
+    locked: 0
+  - name: Barrier
+    uniqueID: 834500707
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: ScreenEffect
+    uniqueID: 3086622935
+    locked: 0
+  - name: OverScreen
+    uniqueID: 1017092029
+    locked: 0

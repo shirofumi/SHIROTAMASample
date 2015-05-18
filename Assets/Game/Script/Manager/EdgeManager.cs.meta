@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 4fa70ce296c09bd459d589978558f942
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Edge: {fileID: 193958, guid: ce2ec67cf3da4204e8eebc8a638850f7, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e8400918d70d5a45a05c0e07ec10541, type: 3}
+  m_Name: BallParams
+  m_EditorClassIdentifier: 
+  BaseMaxSpeed: 4
+  SpeedWithOutOfControl: 7.5
+  MassWithOutOfControl: 10
+  HitPower: 1.5
+  HitPowerWithBarrierFrozen: 2.5
+  ImpactAdjustment: .25
+  ImpactAbsorption: 1
+  ImpactFriction: .5
+  AutoHealingInterval: 3
+  AutoHealingPoint: 5
+  RecoveryTime: 5
+  ExcitedLevelAfterRecovery: 0
+  ExcitedLevelThreshold: .5

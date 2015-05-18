@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: a06944c3231611a4abdedbe588489e18
+timeCreated: 1426403497
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Crack: {fileID: 145758, guid: bb60e7c10ca5f58468d57c86f016b92a, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

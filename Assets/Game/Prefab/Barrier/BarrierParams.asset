@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bcf694fac2fcff489d92907fa6e605d, type: 3}
+  m_Name: BarrierParams
+  m_EditorClassIdentifier: 
+  LifeTime: 10
+  MaxSpeed: 10
+  MaxAngularSpeed: 360
+  HittingExcitingPoint: 5
+  HittingWithFrozenExcitingPoint: 10
+  FreezeTime: .25
+  CooldownTime: .25
+  KickBackPower: 3
+  KickBackPowerWithOutOfControl: 10
+  KickBackPowerMultiplierWithFrozen: 2.5
+  MovementAdjustment: 1
+  BlinkingTime: 2

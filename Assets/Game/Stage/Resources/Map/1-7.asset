@@ -1,0 +1,1565 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfdb345bb45735d49ae53521de4ceaf3, type: 3}
+  m_Name: 1-7
+  m_EditorClassIdentifier: 
+  ID:
+    Primary: 1
+    Secondary: 7
+  Width: 15
+  Height: 11
+  LimitTime: 100
+  Missions:
+  - Code: 65636
+  - Code: 65586
+  - Code: 65566
+  Layers:
+  - {fileID: 11425520}
+--- !u!114 &11425520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7210c801a04836449b7a32ed41be5f2f, type: 3}
+  m_Name: Layer0
+  m_EditorClassIdentifier: 
+  Theme: 1
+  StartPosition: {x: 7, y: 5}
+  MaxBarrierCount: 5
+  Points: 104
+  BarrierEntries:
+  - Type: 2
+    Scale: 1
+    Threshold: .5
+  - Type: 2
+    Scale: 2
+    Threshold: .333333343
+  - Type: 2
+    Scale: 3
+    Threshold: Infinity
+  Edges:
+  - X: 0
+    Y: 0
+    Width: 1
+    Height: 1
+  - X: 2
+    Y: 0
+    Width: 1
+    Height: 1
+  - X: 4
+    Y: 0
+    Width: 1
+    Height: 1
+  - X: 6
+    Y: 0
+    Width: 1
+    Height: 1
+  - X: 8
+    Y: 0
+    Width: 1
+    Height: 1
+  - X: 10
+    Y: 0
+    Width: 1
+    Height: 1
+  - X: 12
+    Y: 0
+    Width: 1
+    Height: 1
+  - X: 14
+    Y: 0
+    Width: 1
+    Height: 1
+  - X: 0
+    Y: 2
+    Width: 1
+    Height: 1
+  - X: 14
+    Y: 2
+    Width: 1
+    Height: 1
+  - X: 0
+    Y: 4
+    Width: 1
+    Height: 1
+  - X: 14
+    Y: 4
+    Width: 1
+    Height: 1
+  - X: 0
+    Y: 6
+    Width: 1
+    Height: 1
+  - X: 14
+    Y: 6
+    Width: 1
+    Height: 1
+  - X: 0
+    Y: 8
+    Width: 1
+    Height: 1
+  - X: 14
+    Y: 8
+    Width: 1
+    Height: 1
+  - X: 0
+    Y: 10
+    Width: 1
+    Height: 1
+  - X: 2
+    Y: 10
+    Width: 1
+    Height: 1
+  - X: 4
+    Y: 10
+    Width: 1
+    Height: 1
+  - X: 6
+    Y: 10
+    Width: 1
+    Height: 1
+  - X: 8
+    Y: 10
+    Width: 1
+    Height: 1
+  - X: 10
+    Y: 10
+    Width: 1
+    Height: 1
+  - X: 12
+    Y: 10
+    Width: 1
+    Height: 1
+  - X: 14
+    Y: 10
+    Width: 1
+    Height: 1
+  Cracks:
+  - X: 1
+    Y: 0
+    Width: 1
+    Height: 1
+  - X: 3
+    Y: 0
+    Width: 1
+    Height: 1
+  - X: 5
+    Y: 0
+    Width: 1
+    Height: 1
+  - X: 7
+    Y: 0
+    Width: 1
+    Height: 1
+  - X: 9
+    Y: 0
+    Width: 1
+    Height: 1
+  - X: 11
+    Y: 0
+    Width: 1
+    Height: 1
+  - X: 13
+    Y: 0
+    Width: 1
+    Height: 1
+  - X: 0
+    Y: 1
+    Width: 1
+    Height: 1
+  - X: 14
+    Y: 1
+    Width: 1
+    Height: 1
+  - X: 0
+    Y: 3
+    Width: 1
+    Height: 1
+  - X: 14
+    Y: 3
+    Width: 1
+    Height: 1
+  - X: 0
+    Y: 5
+    Width: 1
+    Height: 1
+  - X: 14
+    Y: 5
+    Width: 1
+    Height: 1
+  - X: 0
+    Y: 7
+    Width: 1
+    Height: 1
+  - X: 14
+    Y: 7
+    Width: 1
+    Height: 1
+  - X: 0
+    Y: 9
+    Width: 1
+    Height: 1
+  - X: 14
+    Y: 9
+    Width: 1
+    Height: 1
+  - X: 1
+    Y: 10
+    Width: 1
+    Height: 1
+  - X: 3
+    Y: 10
+    Width: 1
+    Height: 1
+  - X: 5
+    Y: 10
+    Width: 1
+    Height: 1
+  - X: 7
+    Y: 10
+    Width: 1
+    Height: 1
+  - X: 9
+    Y: 10
+    Width: 1
+    Height: 1
+  - X: 11
+    Y: 10
+    Width: 1
+    Height: 1
+  - X: 13
+    Y: 10
+    Width: 1
+    Height: 1
+  Cells:
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194305
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194305
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194305
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194305
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194305
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194305
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194305
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194306
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194307
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194306
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194307
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194306
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194307
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194306
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194307
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 131072
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194306
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 2097152
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194307
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194308
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194308
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194308
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194308
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194308
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194308
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 4194308
+    Wall:
+      Code: 0
+    Item:
+      Code: 0
+  - Ground:
+      Code: 65537
+    Panel:
+      Code: 0
+    Wall:
+      Code: 4194304
+    Item:
+      Code: 0

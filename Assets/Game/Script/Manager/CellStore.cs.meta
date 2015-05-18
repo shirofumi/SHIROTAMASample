@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: b538b01efe8442645a59d312eabfa44f
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - NormalGround: {fileID: 165822, guid: e0684d05f28df424e9a2d0eb3fd29062, type: 2}
+  - RoughGround: {fileID: 107530, guid: 0f7da784659168b46847af9f95761477, type: 2}
+  - AccelerationPanel: {fileID: 129602, guid: a31624c1ab96ca84d8f095fccb867c17, type: 2}
+  - DirectionChangePanel: {fileID: 158928, guid: 0831e810c3651354d9ddf70a1ec06346,
+      type: 2}
+  - RotationCWPanel: {fileID: 130644, guid: 733e2ac391e54464da6fac17f3b7ac65, type: 2}
+  - RotationCCWPanel: {fileID: 173422, guid: 1ae6a1bec70d918419e14f81870ae1d8, type: 2}
+  - ExcitingAreaPanel: {fileID: 114886, guid: 824bcdbf410ad7e49aca31a270e59769, type: 2}
+  - HealingAreaPanel: {fileID: 151274, guid: 7bf6fe82b8aae704aa80c9d709d82844, type: 2}
+  - PitPanel: {fileID: 111894, guid: 600b463b1b9124249bc369bf4126d175, type: 2}
+  - BoosterPanel: {fileID: 104016, guid: 18d524efec84fb940943be1412a336e6, type: 2}
+  - StopperPanel: {fileID: 145672, guid: 9458d208129df594f877c998c70462d7, type: 2}
+  - CrackPanel: {fileID: 131788, guid: 948fc2f1023ca1e4596d0a22374ba54a, type: 2}
+  - HardWall: {fileID: 131960, guid: c72eaa2257a03c9488eb5f7aee885b14, type: 2}
+  - BreakableWall: {fileID: 123118, guid: bf3279596f50bff45a9d0633c742b623, type: 2}
+  - EdgeWall: {fileID: 174694, guid: 26a7a6a1480a1394197141eb075bed6e, type: 2}
+  - SmallItem: {fileID: 176334, guid: 99d55ca66812a8d42b1514780375c9a4, type: 2}
+  - MediumItem: {fileID: 175390, guid: 9dce7496cd95ffc42b8b46c4cb2b512c, type: 2}
+  - LargeItem: {fileID: 134738, guid: d4827332254efd34e88b804b170c82a5, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

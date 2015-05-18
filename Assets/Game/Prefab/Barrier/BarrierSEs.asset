@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3deaad73657a1f9438f5d5fe68ac2417, type: 3}
+  m_Name: BarrierSEs
+  m_EditorClassIdentifier: 
+  Set: {fileID: 8300000, guid: 6d3b7543021f8f741b6d29d4cfb12bd9, type: 3}
+  Push: {fileID: 8300000, guid: 002511a7c5cae554191def3d4b7b0ac6, type: 3}
+  Hit: {fileID: 8300000, guid: 1af8d2707942ba249983be16f830e866, type: 3}
+  Slug: {fileID: 8300000, guid: 284b2f365c3559642bbaab16011c2d54, type: 3}

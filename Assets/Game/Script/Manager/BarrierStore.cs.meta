@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 561f118c3affe0244af450dc587c54c5
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - SmallStick: {fileID: 141740, guid: 7c656e6a0345e9c4f98f68e9a0cdb2d1, type: 2}
+  - MediumStick: {fileID: 198386, guid: 1a87a1e0254fdc9428a8474ec926e0a8, type: 2}
+  - LargeStick: {fileID: 102472, guid: 5e9d55df43d0d1f498c680192929b760, type: 2}
+  - SmallCircle: {fileID: 148314, guid: 1746410329c645744aecb3c141c84109, type: 2}
+  - MediumCircle: {fileID: 125776, guid: bceebc3f521dee54bac8cfd750ac0f5c, type: 2}
+  - LargeCircle: {fileID: 134062, guid: cf468b89080429841a4af62c567f3e71, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
